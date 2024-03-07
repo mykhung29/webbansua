@@ -1,0 +1,74 @@
+footer {
+  background-color: #303030;
+}
+.about-us ul {
+  margin: 20px;
+  padding: 0;
+}
+.about-us ul li a i {
+  font-size: 60px;
+  color: white;
+  padding-left: 10px;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone i {
+  font-size: 60px;
+  color: #303030;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+.phone h4 {
+  color: white;
+}
+.row .col {
+  margin: 20px;
+}
+.logo-ft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-ft img {
+  width: 40%;
+  height: auto;
+}
+.thanks h4 {
+  color: white;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location ul li a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+.location ul li a:hover {
+  color: orangered;
+}
+.location ul li {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.location ul li:last-child {
+  padding-bottom: 0;
+}
+.location ul {
+  padding: 0;
+  margin: 0;
+}
+.tag-location {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0;
+}

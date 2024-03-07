@@ -1,0 +1,134 @@
+.header-top {
+  background-color: #303030;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 0;
+}
+.header-top ul {
+  text-align: right;
+}
+.menu ul {
+  text-align: right;
+}
+.header-top .menu {
+  margin: 0;
+}
+.menu li {
+  margin-right: 15px;
+}
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+.header-top .menu {
+  padding: 3px 60px 0px 0px;
+  height: 30px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
+.navbar {
+  height: 100px;
+  background-color: aquamarine;
+  margin-top: 0;
+}
+.center-header {
+  height: 200px;
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 200px;
+  height: auto;
+}
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+.menu-center a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  color: #303030;
+  text-align: center;
+}
+.menu-center li {
+  margin: 0px 30px;
+}
+.menu-center button {
+  background-color: unset;
+  color: #303030;
+  border: unset;
+  font-size: 30px;
+  font-weight: bold;
+}
+.menu-center li a {
+  text-align: center;
+}
+.menu-center ul {
+  padding: 0;
+  margin: 0;
+}
+.search {
+  border: 2px black solid;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.search input,
+i {
+  height: 100%;
+  border-radius: 4px;
+}
+.search i {
+  padding: 10px;
+  font-size: 20px;
+  background-color: #303030;
+  color: white;
+  margin: 0;
+  height: 100%;
+}
+.search input {
+  border: none;
+  padding: 7px;
+}
+
+.sub-1 {
+  display: none;
+}
+
+.menu-center ul li:hover .sub-1 {
+  display: block;
+  position: absolute;
+  z-index: 1000;
+}
+.menu-center ul li:hover .sub-1 ul li {
+  margin-left: 0;
+  margin-top: 10px;
+  text-align: center;
+  border-bottom: 2px solid #dadada;
+}
+.menu-center ul li:hover .sub-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-center ul li:hover .sub-1 ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.menu-center ul li:hover .sub-1 ul li a {
+  font-size: 20px;
+  font-weight: bold;
+}

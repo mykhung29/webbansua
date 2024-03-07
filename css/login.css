@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.container input[type=text], input[type=password]{
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.container label{
+    margin: 0;
+}
+.container button{
+    background-color: #303030;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    width: 40%;
+}
+.frg{
+    margin: 10px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 20px 0px;
+}

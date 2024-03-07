@@ -1,0 +1,38 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+
+    width: 450px;
+}
+a img{
+    height: 100%;
+    width: 100%;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 720px; */
+
+}
+.in4-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 100px;
+
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+button{
+    padding: 8px 16px;
+    border-radius: 10px;
+}

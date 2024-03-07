@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang quản trị</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 800px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            width: 200px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .statistic-label {
+            color: #555;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .statistic-value {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h2>Doanh thu</h2>
+            <span class="statistic-label">Tổng cộng:</span>
+            <span class="statistic-value" id="doanhThu">Loading...</span>
+        </div>
+
+        <div class="card">
+            <h2>Đơn hàng</h2>
+            <span class="statistic-label">Đang xử lý:</span>
+            <span class="statistic-value" id="donHangDangXuLi">Loading...</span>
+        </div>
+
+        <div class="card">
+            <h2>Người dùng</h2>
+            <span class="statistic-label">Tổng số:</span>
+            <span class="statistic-value" id="soNguoiDung">Loading...</span>
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+main {
+  width: 100%;
+  padding-top: 20px;
+}
+/* .row div {
+  border: 2px solid black;
+} */
+.muc-san-pham {
+  border: 2px solid #dadada;
+  border-radius: 5px;
+}
+.muc-san-pham ul {
+  padding: 0;
+}
+.muc-san-pham ul li {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px #dadada solid;
+  padding-bottom: 10px;
+}
+.muc-san-pham ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #303030;
+  font-weight: bold;
+}
+.muc-san-pham ul li:last-child {
+  border-bottom: none;
+}
+/* .text-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.col-md-10 {
+  border: 2px solid #dadada;
+  border-radius: 5px;
+}
+.product {
+  border: #303030 1px solid;
+  margin: 20px 10px 10px 20px;
+  height: auto;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px; /* Khoảng cách giữa các thẻ div */
+}
+@media screen and (max-width: 767px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px; /* Khoảng cách giữa các thẻ div */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .buy button {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #303030;
+    color: white;
+    font-size: 10px;
+    transition: 0.2s;
+  }
+}
+a img {
+  max-width: 100%;
+  height: auto;
+  transition: 0.3s;
+}
+.in4-product p {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.product a {
+  display: block;
+  overflow: hidden;
+}
+.product img:hover {
+  transform: scale(1.1);
+}
+
+.buy {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.buy button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #303030;
+  color: white;
+  font-size: 16px;
+  transition: 0.2s;
+}
+.buy button:hover {
+  transform: scale(1.1);
+}
+
+.best-sell span {
+  background-color: #303030;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.col-md-10 {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.muc-san-pham ul li a:hover {
+  color: orangered;
+}
+/* ///////////////////////////// */
+.list-trang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-trang ul {
+  padding: 0;
+  margin: 0;
+}
+.list-trang ul li {
+  background-color: #303030;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.list-trang ul li a {
+  color: white;
+  text-decoration: none;
+}
+.temple {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#carouselExampleIndicators {
+  width: 90%;
+  height: auto;
+}
+.carousel-item img {
+  border-radius: 20px;
+  /* height: 500px;
+  width: 800px; */
+}

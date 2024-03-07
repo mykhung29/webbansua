@@ -1,0 +1,33 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.add input{
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.add select{
+    padding: 8px 15px;
+    border-radius: 10px;
+   margin-bottom: 20px;
+}
+.add label{
+    margin: 0;
+}
+.add button{
+    width: 10%;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+}
